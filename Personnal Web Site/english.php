@@ -2,20 +2,19 @@
 <html lang="en">
 <head>
 <title>Lionel MUKUNA CIOWELA</title>
-<meta charset="UTF-8">
+<meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link  rel="icon" href="http://lmukunaciowela.pe.hu/www/pictures/Pretty-Office-Contact.ico  " 
-  type="image/vnd.microsoft.ico" />
+<link  rel="icon" href="http://lmukunaciowela.pe.hu/www/pictures/icon1.png" type="image/vnd.microsoft.ico" />
 
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <!--Latest compiled and minified CSS from PureCSS-->
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 <!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <style>
 h2 {
@@ -43,9 +42,6 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
-.navbar {
-    font-family: Montserrat, sans-serif;
-}
 .jumbotron
 {
 	background-color: #456789; /* blue dark*/
@@ -104,8 +100,8 @@ footer .glyphicon {
 }
 .navbar {
     margin-bottom: 0;
+	margin-right: 20px;
     background-color: #456789;
-    z-index: 9999;
     border: 0;
     font-size: 12px;
     line-height: 1.42857143 ;
@@ -130,12 +126,17 @@ footer .glyphicon {
     border-color: transparent;
     color: #ffffff;
 }
+.marge{
+    margin-left: 5px;
+	margin-right: 10px;
+}
+
 </style>
 
 </head>
 
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="20">
 
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
@@ -146,12 +147,12 @@ footer .glyphicon {
 			<span class ="icon-bar"></span>
 			
 			</button>
-			<a class="navbar-brand" href="#myPage">Personal WebSite</a>
+			<a class="navbar-brand" href="#myPage">LIONEL MUKUNA CIOWELA</a>
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 		  <ul class="nav navbar-nav navbar-right">
 		  <li><a href="#about">About Me</a></li>
-		  <li><a href="#cv">My CV</a></li>
+		  <li><a href="#resume">Resumé</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
           </ul>
@@ -170,14 +171,13 @@ footer .glyphicon {
  <div class="row">
 	<div class="col-lg-12 text-center">
 	<h2>About Me</h2>
-	<!--<hr class="star-light">-->
 	</div>
 </div>
 	
 <div class="row">
 		<div class="col-sm-4 text-center">
-			<p>I am a student at Telecom Saint-Etienne, currently in an exchange program at Missouri Western States University.
-			I was accepted at Telecom Saint-Etienne after two years Higher School Preparatory Classes, post secondary,  at Telecom Saint-Etienne, named CITISE (Cycle Initiale de Telecom Saint-Etienne).
+			<p>I am a student at Télécom Saint-Etienne, currently in an exchange program at Missouri Western States University.
+			I was accepted at Telecom Saint-Etienne after two years Higher School Preparatory Classes, post secondary,  at Télécom Saint-Etienne, named CITISE (Cycle Initiale de Télécom Saint-Etienne).
 			</p>
 		</div>
 		
@@ -191,27 +191,7 @@ footer .glyphicon {
 		</div>
 </div>
 </div>
-<!--	
-<div class="container-fuild" id="studies">	
-	<div class="row">
-		<div class="progress">
-		<div class="progress-bar progress-bar-info col-lg-3" style="width: 40%">
-			<span class="sr-only">40% Complete (info)</span>
-		</div>
-		<div class="progress-bar progress-bar-success col-lg-3" style="width: 20%">
-			<span class="sr-only">20% Complete (warning)</span>
-		</div>
-		<div class="progress-bar progress-bar-warning col-lg-3" style="width: 20%">
-			<span class="sr-only">20% Complete (danger)</span>
-		</div>
-		<div class="progress-bar progress-bar-success col-lg-3" style="width: 20%">
-			<span class="sr-only">20% Complete (success)</span>
-		</div>
-		</div>
-	
-	</div>
-</div>
-		-->
+
   <div class="container-fuild bg-grey">
 	<div class="row">
 		<div class="col-sm-4 text-center">
@@ -225,32 +205,116 @@ footer .glyphicon {
 	</div>
 </div>
 
-<div id="cv" class="container-fuild">
+<div id="resume" class="container-fuild">
 	<div class="row">
 	
 	<h2 class="text-center">My resume</h2>
-	<h4>What am i able to do ?</h4>
-	<br>
 	</div>
+	<h4 class="text-center">Education Background</h4>
 	<div class="row">
-		<div class="col-sm-4">
-			<!--<button type="button" class="btn btn-default"  aria-label="Left Align">
-				<span class="glyphicon glyphicon-download-alt logo-small" href="https://fr.linkedin.com/in/lmukunaciowela"></span>
-				<a href="https://fr.linkedin.com/in/lmukunaciowela" ></a>
-			</button>-->
-			<a class="btn btn-info" href="https://fr.linkedin.com/in/lmukunaciowela" role="button">Resume Online</a>
-		</div>
-		<div class="col-sm-8">
-			<p>Please press to view my resume.</p>
-			<p>This one was made for the international labour market.</p>
-		</div>
+		<div class="col-lg-12">
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           Télécom Saint-Etienne 2014 - 2017
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        Engineering school</br>
+        Computer Science, network and télécommunication</br>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Missouri Western State University 2015 - 2016
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+		Computer Science</br>
+		Dean List Fall 2015</br>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Télécom Saint-Etienne 2012 - 2014
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        DUT GEII (Two years degree in technology) in eletrical and computer science, University institute of technology of Saint-Etienne</br>
+		Licence in physics, University of Jean Monnet</br>
+      </div>
+    </div>
+  </div>
+</div>
 	</div>
+	</div>
+	<h4 class="text-center">Skills</h4>
+		<div class="row">
+			<div class="col-sm-4">
+				<button class="btn btn-primary btn-lg btn-block" type="button" data-toggle="collapse" data-target="#collapseWeb" aria-expanded="false" aria-controls="collapseWeb">
+					Web programming
+				</button>
+			<div class="collapse" id="collapseWeb">
+				<div class="well">
+					CSS<br>
+					HTML<br>
+					PHP<br>
+					Javascript (JQuery & Ajax) <br>
+				</div>
+			</div>
+
+			</div>
+			
+			<div class="col-sm-4">
+			<button class="btn btn-primary btn-lg btn-block" type="button" data-toggle="collapse" data-target="#collapseComputer" aria-expanded="false" aria-controls="collapseComputer">
+				Computer programming
+				</button>
+			<div class="collapse" id="collapseComputer">
+				<div class="well">
+					C/C++<br>
+					C#<br>
+					Java<br>
+					MySQL<br>
+				</div>
+			</div>
+			</div>
+			
+			<div class="col-sm-4">
+			<button class="btn btn-primary btn-lg btn-block" type="button" data-toggle="collapse" data-target="#collapseExtra" aria-expanded="false" aria-controls="collapseExtra">
+					Plus programming
+				</button>
+			<div class="collapse" id="collapseExtra">
+				<div class="well">
+					Android Studio<br>
+					Visual Studio<br>
+					C++ Builder<br>
+					Access <br>
+					Eclipse<br>
+				</div>
+			</div>
+			</div>
+		
+		</div>
 </div>
 
 
 <div id="projects" class="container-fuild text-center bg-grey">
 	<h2 class="text-center">Projects</h2>
-	<h4>What did i do ?</h4>
+
 	<div class="row text-center">
 		<div class="col-sm-4">
 		<div class="thumbnail">
@@ -325,6 +389,7 @@ footer .glyphicon {
                     <ul>
                         <li class="pure-menu-item"><a href="https://fr.linkedin.com/in/lmukunaciowela" class="pure-menu-link">Linkedin</a></li>
                         <li class="pure-menu-item"><a href="https://github.com/liyokuna" class="pure-menu-link">GitHub</a></li>
+						<li class="pure-menu-item"><a href="https://twitter.com/liyokuna" class="pure-menu-link">Twitter</a></li>
                     </ul>
                 </div>
             </div>

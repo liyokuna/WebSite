@@ -2,10 +2,10 @@
 <html>
 <head>
 <title>Lionel MUKUNA CIOWELA</title>
-<meta charset="UTF-8">
+<meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link  rel="icon" href="http://lmukunaciowela.pe.hu/www/pictures/Pretty-Office-Contact.ico  " 
+<link  rel="icon" href="http://lmukunaciowela.pe.hu/www/pictures/icon1.png  " 
   type="image/vnd.microsoft.ico" />
 
 <!-- Latest compiled and minified CSS -->
@@ -27,7 +27,16 @@ body {
 	left: 25%;
 	position: absolute;
 }
-
+.panelBack{
+	min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #262626;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
 </style>
 </head>
 
@@ -36,7 +45,8 @@ body {
 <div class="container-fluid">
 
 <div class="centre">
-
+<div class="panelBack">
+  
 	<div class="row">
 	
 		<div class="col-sm-4 col-sm-offset-4">
@@ -53,12 +63,12 @@ body {
 		<div class="col-sm-4 col-sm-offset-4">
 			<p>
 		<a href="francais.php">
-			<button type="button" class="btn btn-default btn-lg btn-block">Français</button>
+			<button type="button" class="btn btn-default btn-lg btn-block" disabled="disabled">Français</button>
 		</a>
 			</p>
 		</div>
 	</div>
-	
+	</div>
 </div>
 </div>
 
