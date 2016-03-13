@@ -34,7 +34,7 @@ h4 {
 }
 body {
     font: 400 15px Lato, sans-serif;
-    line-height: 1.8;
+    line-height: 1.8em;
     color: #818181;
 }
 
@@ -52,9 +52,15 @@ body {
 {
 	background-color: #ECF1ED;
 }
-.container-fluid
+.container-fluid 
 {
-	padding: 60px 50px;
+	/*padding: 60px 50px;*/
+}
+.container-fluid {
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
 }
 /* Add the blue in each logo*/
 .logo-small
@@ -82,6 +88,11 @@ body {
         font-size: 150px;
     }
   }
+  @media (min-width: 48em){
+.content {
+    padding: 1em;
+}
+  }
 .thumbnail
 {
 	padding: 0 0 15px 0;
@@ -99,8 +110,7 @@ footer .glyphicon {
     color: #456789;
 }
 .navbar {
-    margin-bottom: 0;
-	margin-right: 20px;
+    margin-bottom: 0; 
     background-color: #456789;
     border: 0;
     font-size: 12px;
@@ -136,12 +146,12 @@ footer .glyphicon {
 </head>
 
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="20">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="10">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 			<span class ="icon-bar"></span>
 			<span class ="icon-bar"></span>
 			<span class ="icon-bar"></span>
@@ -166,8 +176,8 @@ footer .glyphicon {
 	<p>I specialize in computer network, computer Science more precisely software and website development.</p>
  </div>
  
- 
- <div id="about" class="container-fuild">
+ <div id="about" class="container">
+ <div class="content">
  <div class="row">
 	<div class="col-lg-12 text-center">
 	<h2>About Me</h2>
@@ -191,8 +201,10 @@ footer .glyphicon {
 		</div>
 </div>
 </div>
+</div>
 
-  <div class="container-fuild bg-grey">
+
+  <div class="container-fluid bg-grey">
 	<div class="row">
 		<div class="col-sm-4 text-center">
 		<span class="glyphicon glyphicon-globe logo"></span>
@@ -205,7 +217,9 @@ footer .glyphicon {
 	</div>
 </div>
 
-<div id="resume" class="container-fuild">
+
+<div id="resume" class="container">
+<div class="content">
 	<div class="row">
 	
 	<h2 class="text-center">My resume</h2>
@@ -310,9 +324,11 @@ footer .glyphicon {
 		
 		</div>
 </div>
+</div>
 
 
-<div id="projects" class="container-fuild text-center bg-grey">
+<div id="projects" class="container-fluid text-center bg-grey">
+<div class="content">
 	<h2 class="text-center">Projects</h2>
 
 	<div class="row text-center">
@@ -340,9 +356,11 @@ footer .glyphicon {
 		</div>
 	</div>
 </div>
+</div>
 
 
-<div id="contact" class="container-fluid">
+<div id="contact" class="container">
+<div class="content">
  <h2  class="text-center">Contact</h2>
 	<div class="row">
 	<div class="col-sm-5 text-center">
@@ -376,9 +394,10 @@ footer .glyphicon {
 	</div>
 	</div>
 </div>
+</div>
 
 
-<footer class="container-fluid text-center bg-grey">
+<footer class="container-fuild text-center bg-grey">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
