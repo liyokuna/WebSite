@@ -5,7 +5,7 @@
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link  rel="icon" href="http://lmukunaciowela.pe.hu/www/pictures/icon1.png" type="image/vnd.microsoft.ico" />
+<link  rel="icon" href="pictures/icon1.png" type="image/png" />
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -302,6 +302,7 @@ footer .glyphicon {
 					C/C++<br>
 					C#<br>
 					Java<br>
+					Go<br>
 					MySQL<br>
 				</div>
 			</div>
@@ -382,11 +383,10 @@ footer .glyphicon {
 				<input class="form-control" type="text" name="subject" placeholder="Subject" size="60"><br>
 			</div>
 			
-			<textarea class="form-control" cols="60" rows="5" name="message" placeholder="Message">
-			</textarea><br>
+			<textarea class="form-control" rows="5" name="message" placeholder="Message"></textarea><br>
 			<div class="row">
 				<div class="col-sm-12 form-group">
-					<input class="btn btn-default pull-right" type="submit" value="Send" >
+					<input class="btn btn-success pull-right" type="submit" value="Send" >
 				</div>
 			</div>
 		</form>
@@ -395,7 +395,7 @@ footer .glyphicon {
 	</div>
 </div>
 </div>
-
+<br>
 
 <footer class="container-fuild text-center bg-grey">
   <a href="#myPage" title="To Top">
@@ -408,7 +408,7 @@ footer .glyphicon {
                     <ul>
                         <li class="pure-menu-item"><a href="https://fr.linkedin.com/in/lmukunaciowela" class="pure-menu-link">Linkedin</a></li>
                         <li class="pure-menu-item"><a href="https://github.com/liyokuna" class="pure-menu-link">GitHub</a></li>
-						<li class="pure-menu-item"><a href="https://twitter.com/liyokuna" class="pure-menu-link">Twitter</a></li>
+						<li class="pure-menu-item"><a href="http://lmukunaciowela.pe.hu/W_A" class="pure-menu-link">Web Application</a></li>
                     </ul>
                 </div>
             </div>
@@ -417,7 +417,7 @@ footer .glyphicon {
 	<div class="footer-below">	
 		<div class="container">
 			<div class="row">
-		<p>A web site by Lionel MUKUNA CIOWELA</p>
+		<p>Portfolio by Lionel MUKUNA CIOWELA</p>
 			</div>
 		</div>
 	</div>
