@@ -50,7 +50,7 @@ body {
 }
 .bg-grey
 {
-	background-color: #ECF1ED;
+	background-color: #cccccc;
 }
 .container-fluid 
 {
@@ -140,6 +140,17 @@ footer .glyphicon {
     margin-left: 5px;
 	margin-right: 10px;
 }
+/*Effect on logo*/
+#logo {
+	background: url("pictures/tse.png") center no-repeat;
+	margin-top:-55px;
+	width:300px;
+	height:300px;
+}
+#logo:hover {
+	
+	background-image:url("pictures/mwsu.jpg");
+}
 
 </style>
 
@@ -171,9 +182,11 @@ footer .glyphicon {
 </nav>
 
  <div class="jumbotron text-center">
-	<h1>Engineer</h1>
-	<!--<hr class="star-light">-->
-	<p>I specialize in computer network, computer Science more precisely software and website development.</p>
+	<div class="container">
+		<h1>Engineer</h1>
+		<!--<hr class="star-light">-->
+		<p>I specialize in computer network, computer Science more precisely software and website development.</p>
+	</div>
  </div>
  
  <div id="about" class="container">
@@ -197,7 +210,10 @@ footer .glyphicon {
  		</div>
 		
 		<div class="col-sm-4 text-center">
-			<span class="glyphicon glyphicon-pushpin logo"></span>
+			<div id="logo" >
+				<!--<span class="glyphicon glyphicon-pushpin logo"></span>-->
+				<!--<img src="pictures/mwsu.jpg" alt="mwsu">-->
+			</div>
 		</div>
 </div>
 </div>
@@ -207,7 +223,7 @@ footer .glyphicon {
   <div class="container-fluid bg-grey">
 	<div class="row">
 		<div class="col-sm-4 text-center">
-		<span class="glyphicon glyphicon-globe logo"></span>
+			<span class="glyphicon glyphicon-globe logo" style="margin-top:30px;"></span>
 		</div>
 		<div class="col-sm-8">
 		<h2>My Values</h2>
@@ -335,23 +351,24 @@ footer .glyphicon {
 	<div class="row text-center">
 		<div class="col-sm-4">
 		<div class="thumbnail">
-			<iframe width="420" height="310" src="https://www.youtube.com/embed/b0U3hiw92d4?" frameborder="0" allowfullscreen>
-			</iframe>
-			<p><strong>Computer Graphics</strong></p>
+			<div class="embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item" width="420" height="310" src="https://www.youtube.com/embed/b0U3hiw92d4?" frameborder="0" allowfullscreen></iframe>
+			</div><br>
+			<p><strong>Computer Graphics</strong></p><hr>
 			<p>I have to create two 3-d character and animated them.</p>
 		</div>
 		</div>
 		<div class="col-sm-4">
 			<div class="thumbnail">
-			<img class="img-responsive" src="pictures/database.png" alt="website" style="width :420px; height:300px;">
-			<p><Strong>Ajax and Php</strong></p>
-			<p>This website connects to a specified database, by using SQL query, in order to retrieve the wheather stations according the state and the place.</p>
+			<img class="img-responsive" src="pictures/logo_stjoe.png" alt="website" style="width :420px; height:300px;"><br>
+			<p><Strong><a href="http://stjoetransit.com/" title="Saint Joe Transit">Saint Joseph Transit</a></strong></p><hr>
+			<p>St. Joseph Transit “The Ride” operates eight fixed routes that encompass the city limits of St. Joseph and Elwood, Kansas</p>
 			</div>
 		</div>
 		<div class="col-sm-4">
 			<div class="thumbnail">
-			<img class="img-responsive" src="pictures/course4.png" alt="" style="width :420px; height:310px;">
-			<p><strong>C/C++, Java, C#, Android Studio</strong>
+			<img class="img-responsive" src="pictures/course4.png" alt="" style="width :420px; height:310px;"><br>
+			<p><strong>C/C++, Java, C#, Android Studio</strong><hr>
 			<p>View other of my projects on <a href="https://github.com/liyokuna">Github.</a></p>
 			</div>
 		</div>
@@ -362,37 +379,45 @@ footer .glyphicon {
 
 <div id="contact" class="container">
 <div class="content">
- <h2  class="text-center">Contact</h2>
-	<div class="row">
-	<div class="col-sm-5 text-center">
-		<p>Looking forward to answering your email.</p>
-	</div>
-	
-	<div class="col-sm-7">
+	<h2  class="text-center">Contact</h2>
+		<p class="text-center">Looking forward to answering your email.</p>
+		<br>
 		<div class="row">
-		<form method="POST" name="person" action ="send_mail.php" >
-			<div class="col-sm-6 form-group">
-				<input class="form-control" type="text" name="Name" onchange="checkName()" placeholder="Name" size="30"><br>
-			</div>
-			
-			<div class="col-sm-6 form-group">
-				<input class="form-control" type="email" name="mail" onchange="checkMail()" placeholder="Email" size="30"><br>
-			</div>
-			
-			<div class="col-sm-6 form-group">
-				<input class="form-control" type="text" name="subject" placeholder="Subject" size="60"><br>
-			</div>
-			
-			<textarea class="form-control" rows="5" name="message" placeholder="Message"></textarea><br>
-			<div class="row">
-				<div class="col-sm-12 form-group">
-					<input class="btn btn-success pull-right" type="submit" value="Send" >
+			<form method="POST" name="person" action ="send_mail.php" >
+				<div class="col-lg-5 text-center">
+					<div class="row">
+						<div class=" col-lg-12 form-group">
+							<input class="form-control" type="text" name="Name" onchange="checkName()" placeholder="Name" ><br>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-lg-12 form-group">
+							<input class="form-control" type="email" name="mail" onchange="checkMail()" placeholder="Email"><br>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-lg-12 form-group">
+							<input class="form-control" type="text" name="subject" placeholder="Subject" ><br>
+						</div>
+					</div>
+					
 				</div>
-			</div>
-		</form>
+	
+				<div class="col-lg-7">
+					<div class="row">
+						<textarea class="form-control" rows="9" name="message" placeholder="Message"></textarea><br>
+							<div class="row">
+								<div class="col-sm-12 form-group">
+									<input class="btn btn-success pull-right" type="submit" value="Send" >
+								</div>
+							</div>
+		
+					</div>
+				</div>
+			</form>
 		</div>
-	</div>
-	</div>
 </div>
 </div>
 <br>
